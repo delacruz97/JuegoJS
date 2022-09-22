@@ -1,0 +1,37 @@
+.tit{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+
+}
+
+
+.img{
+    text-align:center;
+    
+   
+}
+
+
+
+.buton{
+    text-align: center;
+    margin: 20px auto;
+   
+    }
+.butonP{
+    width: 50%;
+    height: 50px;
+    background-color: rgb(63, 116, 151);
+    border: solid 2px black;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+
+.butonP:hover{
+    font-size: 20px;
+    color: rgb(33, 228, 19);
+    border: solid 1px black;
+}

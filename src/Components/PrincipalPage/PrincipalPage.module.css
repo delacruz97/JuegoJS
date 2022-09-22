@@ -1,0 +1,23 @@
+.titulo{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    border: solid 1px black;
+}
+.container{
+    text-align: center;
+}
+.image{
+
+    animation: giro 9.9s linear infinite;
+    border-radius:100%; 
+}
+
+@keyframes giro{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
